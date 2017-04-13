@@ -1,1 +1,29 @@
 // main.css
+html {
+	position: absolute;
+	min-height: 100% !important;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: absolute;
+	color: #050505;
+	font-family: Futura;
+	background-color: #fff;
+	height: 100%;
+	min-height: 100% !important;
+	min-width: 100% !important;
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	position: absolute;
+	width: 100%;
+	top: 33% !important;
+	letter-spacing: -4px;
+	font-size: 40pt;
+	font-weight: 900;
+	text-align: center;
+}
