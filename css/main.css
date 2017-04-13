@@ -27,3 +27,20 @@ body {
 	font-weight: 900;
 	text-align: center;
 }
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.social-icons {
+	left: 50%;
+	bottom: 30px;
+	font-size: 15pt;
+	letter-spacing: 0px;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
