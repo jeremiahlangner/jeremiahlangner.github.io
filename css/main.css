@@ -18,6 +18,25 @@ body {
 	padding: 0;
 }
 
+.navbar-nav {
+	background: transparent;
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+}
+
+.navbar-nav ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar-nav li {
+	float: none;
+	font-size: 17px;
+	list-style-type: none;
+}
+
 .logo {
 	position: absolute;
 	width: 100%;
