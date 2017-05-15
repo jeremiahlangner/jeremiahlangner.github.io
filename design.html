@@ -2,3 +2,7 @@
 layout: default
 title: jeremiahlangner.me::Design
 ---
+
+{% for design in site.designs %}
+	<img src="{{ design.image_path }}" alt="{{ design.title }}" />
+{% endfor %}

@@ -9,13 +9,18 @@ html {
 body {
 	position: absolute;
 	color: #050505;
-	font-family: Futura;
+	background:#eeeeee;
+	font-family: Helvetica;
 	background-color: #fff;
 	height: 100%;
 	min-height: 100% !important;
 	min-width: 100% !important;
 	margin: 0;
 	padding: 0;
+}
+
+.container {
+	padding-top: 60px;
 }
 
 .navbar-nav {
@@ -33,14 +38,17 @@ body {
 
 .navbar-nav li {
 	float: none;
-	font-size: 17px;
+	font-size: 18px;
+	font-weight: 800 !important;
 	list-style-type: none;
 }
 
+.navbar-nav li a {
+	color: #000 !important;
+}
+
 .logo {
-	position: absolute;
-	width: 100%;
-	top: 33% !important;
+	margin-top: 33% !important;
 	letter-spacing: -4px;
 	font-size: 40pt;
 	font-weight: 900;

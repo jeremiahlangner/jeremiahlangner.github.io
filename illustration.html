@@ -2,3 +2,8 @@
 layout: default
 title: jeremiahlangner.me::Illustration
 ---
+</div>
+
+{% for illustration in site.illustrations %}
+	<img src="{{ illustration.image_path }}" alt="{{ illustration.title }}" />
+{% endfor %}
