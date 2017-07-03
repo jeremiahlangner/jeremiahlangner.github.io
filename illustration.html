@@ -2,8 +2,11 @@
 layout: default
 title: jeremiahlangner.me::Illustration
 ---
-</div>
 
-{% for illustration in site.illustrations %}
-	<img src="{{ illustration.image_path }}" alt="{{ illustration.title }}" />
-{% endfor %}
+<div class="grid animated fadeIn">
+	{% for illustration in site.illustrations %}
+		<div class="grid-item">
+			 <a href="{{ illustration.url }}"> <img src="{{ illustration.image_path }}" /> </a>
+		</div>
+	{% endfor %}
+</div>

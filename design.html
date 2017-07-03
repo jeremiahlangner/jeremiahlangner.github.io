@@ -2,7 +2,16 @@
 layout: default
 title: jeremiahlangner.me::Design
 ---
+<style>
+	body {
+		background: #000;
+	}
+</style>
 
-{% for design in site.designs %}
-	<img src="{{ design.image_path }}" alt="{{ design.title }}" />
-{% endfor %}
+<div class="grid animated fadeIn">
+	{% for design in site.designs %}
+		<div class="grid-item">
+			 <a href="{{ design.url }}"> <img src="{{ design.image_path }}" /> </a>
+		</div>
+	{% endfor %}
+</div>
