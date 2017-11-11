@@ -3,7 +3,7 @@
 
 /* variables */
 $primary-color: #eb55a7;
-$background-color: #e8e6d4;
+$background-color: #000;
 
 
 /* CSS transitions */
@@ -14,6 +14,7 @@ a, li {
 }
 
 img {
+	-webkit-transition: all .3s cubic-bezier(0.64,0.20,0.02,0.35);
 	transition: all .3s cubic-bezier(0.64,0.20,0.02,0.35);
 	-webkit-transition: all .4s cubic-bezier(0.64,0.20,0.02,0.35);
 }
@@ -37,8 +38,9 @@ body {
 	font-size: 1.0rem;
 	line-height: 1.6rem;
 	position: relative;
-	background: background-color;
-	font-family: "Avenir Next", Helvetica, arial, sans-serif;
+	background: $background-color;
+	color: #fff;
+	font-family: Helvetica, arial, sans-serif;
 	font-weight: 500;
 	margin: 0;
 	padding: 0;
@@ -68,6 +70,7 @@ h3 {
  }
 
  .row {
+ 	 -webkit-transition: background .2s ease !important;
  	 transition: background .2s ease !important;
  }
 
