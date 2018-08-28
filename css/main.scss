@@ -2,8 +2,8 @@
 ---
 
 /* variables */
-$primary-color: #eb55a7;
-$background-color: #000;
+$primary-color: rgb(64, 143, 236);
+$background-color: rgba(0,0,0, 0.05);
 
 
 /* CSS transitions */
@@ -27,7 +27,7 @@ input, textarea, button, label, option, select, .button, .hndle {
 
 
 html {
-	font-size: 19px;
+	font-size: 16px;
 	margin: 0;
 	padding: 0;
 	-webkit-font-smoothing: antialiased;
@@ -35,11 +35,11 @@ html {
 }
 
 body {
-	font-size: 1.0rem;
-	line-height: 1.6rem;
+	font-size: 0.9rem;
+	line-height: 1.25rem;
 	position: relative;
 	background: $background-color;
-	color: #fff;
+	color: #777;
 	font-family: Helvetica, arial, sans-serif;
 	font-weight: 500;
 	margin: 0;
@@ -47,8 +47,12 @@ body {
 }
 
 h3 {
-	font-size: 1.5rem;
-	margin-top: 3rem;
+	font-size: 1.2rem;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	padding-bottom: 4px;
+	display: block;
+	color: #222;
 }
 
 /* .navbar-nav {
@@ -65,10 +69,18 @@ h3 {
 	justify-content: space-around;
 } */
  ul {
+ 	padding-top: 8px;
  	margin-left: 0;
- 	padding-left: 0;
+ 	padding-left: 12px;
  }
 
+li {
+	padding-bottom: 8px;
+}
+
+p {
+	padding-bottom: 0;
+}
  .row {
  	 -webkit-transition: background .2s ease !important;
  	 transition: background .2s ease !important;
@@ -132,6 +144,10 @@ h3 {
 	height: 100%;
 }
 
+.vertical-spacer {
+	padding-top: 60px;
+}
+
 a {
 	color: $primary-color;
 	font-weight: 500;
@@ -141,6 +157,16 @@ a:hover {
 	color: #000;
 	text-decoration: none;
 	border-bottom: 2px solid #000;
+}
+
+.btn-outline-primary {
+	border-color: $primary-color;
+	color: $primary-color;
+
+	&:hover {
+		border-color: $primary-color;
+		background-color: lighten($primary-color, 30%);
+	}
 }
 
 img {
