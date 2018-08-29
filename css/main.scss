@@ -166,6 +166,7 @@ a:hover {
 	&:hover {
 		border-color: $primary-color;
 		background-color: lighten($primary-color, 30%);
+		color: $primary-color;
 	}
 }
 
