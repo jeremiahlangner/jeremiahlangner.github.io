@@ -1,9 +1,0 @@
-name: jeremiahlangner
-markdown: kramdown
-collections: 
-  illustrations:
-    output: true
-  designs:
-    output: true
-  artworks:
-    output: true
