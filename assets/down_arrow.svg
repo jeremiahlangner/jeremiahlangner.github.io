@@ -3,7 +3,7 @@
 	 viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
 <style>
     #down-arrow {
-        fill: #fff;
+        fill: #000;
     }
 </style>
 <g id="down-arrow">
