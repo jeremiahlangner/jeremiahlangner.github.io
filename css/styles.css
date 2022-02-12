@@ -11332,10 +11332,6 @@ html, body {
 }
 
 @media (max-width: 800px) {
-  .spacer {
-    margin-top: 25vh;
-  }
-
   .width-75 {
     width: 100% !important;
   }
