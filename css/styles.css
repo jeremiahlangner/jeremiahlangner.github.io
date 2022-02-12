@@ -11287,17 +11287,18 @@ textarea.form-control-lg {
   }
 }
 html, body {
-  background: #888;
+  background: #8a8a8a;
   color: #000;
   font-size: calc(100% + 0.15vw);
 }
 
 .width-75 {
+  margin-left: 80px;
   width: 75%;
 }
 
 .spacer {
-  margin-top: 45vh;
+  margin-top: 43vh;
 }
 
 .show-on-scroll {
@@ -11334,6 +11335,12 @@ html, body {
 @media (max-width: 800px) {
   .width-75 {
     width: 100% !important;
+    margin-left: 0;
+  }
+
+  .scrolldown {
+    left: unset;
+    right: 32px;
   }
 }
 @media print {
