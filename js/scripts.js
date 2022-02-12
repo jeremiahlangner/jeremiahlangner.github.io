@@ -21,10 +21,9 @@
     
     function scrollNext() {
         const sections = document.querySelectorAll('.show-on-scroll');
-        [].forEach.call(sections, (section) => {
-            const height = section.getBoundingClientRect().height;           
+        [].forEach.call(sections, (section) => {         
             if (offset(section) > window.scrollY + window.innerHeight / 2) {
-                window.scrollTo(0, offset(section) - window.innerHeight / 2.75 );
+                window.scrollTo(0, offset(section) - window.innerHeight / 3 );
                 throw stop;
             }
         });

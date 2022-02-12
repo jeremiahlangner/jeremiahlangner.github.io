@@ -11289,7 +11289,11 @@ textarea.form-control-lg {
 html, body {
   background: #000;
   color: #fff;
-  font-size: calc(100% + 0.25vw);
+  font-size: calc(100% + 0.15vw);
+}
+
+.width-75 {
+  width: 75%;
 }
 
 .spacer {
@@ -11327,8 +11331,12 @@ html, body {
   color: #666;
 }
 
-@media (max-width: 800) {
-  .w-75 {
+@media (max-width: 800px) {
+  .spacer {
+    margin-top: 25vh;
+  }
+
+  .width-75 {
     width: 100% !important;
   }
 }
