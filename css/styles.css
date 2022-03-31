@@ -11286,6 +11286,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root {
+  color-scheme: light dark;
+}
+
 html, body {
   background: #8a8a8a;
   color: #000;
