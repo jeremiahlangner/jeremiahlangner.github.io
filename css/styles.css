@@ -11291,8 +11291,8 @@ textarea.form-control-lg {
 }
 
 html, body {
-  background: #8a8a8a;
-  color: #000;
+  background: #000;
+  color: #fff;
   font-size: calc(100% + 0.15vw);
 }
 
@@ -11324,6 +11324,7 @@ html, body {
   bottom: 32px;
   left: 32px;
   transition: all 0.2s;
+  color: #666;
 }
 .scrolldown:hover {
   opacity: 1;
