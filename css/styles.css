@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Bare v5.0.7 (https://startbootstrap.com/template/bare)
-* Copyright 2013-2022 Start Bootstrap
+* Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-bare/blob/master/LICENSE)
 */
 /*!
@@ -11286,14 +11286,21 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-:root {
-  color-scheme: light dark;
-}
-
 html, body {
   background: #000;
-  color: #fff;
+  color: #FFF;
   font-size: calc(100% + 0.15vw);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #fff;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+a:hover {
+  color: #fff;
+  opacity: 1;
 }
 
 .width-75 {
@@ -11315,7 +11322,31 @@ html, body {
 }
 
 .down_arrow {
+  cursor: pointer;
   width: 64px;
+}
+
+.download-icon {
+  margin-left: 6px;
+  margin-right: 3px;
+  width: 22px;
+}
+
+button {
+  opacity: 0.7;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  padding: 8px;
+  outline: none;
+  color: #fff;
+  transition: all 0.2s;
+}
+button:hover {
+  opacity: 1;
+}
+button span, button img {
+  pointer-events: none;
 }
 
 .scrolldown {
@@ -11324,7 +11355,6 @@ html, body {
   bottom: 32px;
   left: 32px;
   transition: all 0.2s;
-  color: #666;
 }
 .scrolldown:hover {
   opacity: 1;
@@ -11353,6 +11383,10 @@ html, body {
     background: #fff;
     color: #000;
     font-size: 16px;
+  }
+
+  button {
+    display: none;
   }
 
   .container {
