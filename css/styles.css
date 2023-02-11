@@ -11293,6 +11293,10 @@ html, body {
   -webkit-font-smoothing: antialiased;
 }
 
+p {
+  font-weight: 400;
+}
+
 a {
   color: #fff;
   opacity: 0.7;
