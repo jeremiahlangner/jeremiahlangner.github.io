@@ -1,2 +1,2 @@
 # jeremiahlangner.github.io
-Personal Website
+Personal Website/Resume
